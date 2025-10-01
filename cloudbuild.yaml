@@ -5,6 +5,9 @@ substitutions:
   _REGION: asia-northeast1
   _REPO: jobs-lab
   _IMAGE: prime-lab
+
+opstions:
+  logging: CLOUD_LOGGING_ONLY
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     args:
