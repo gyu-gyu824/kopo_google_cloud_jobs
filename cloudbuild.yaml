@@ -6,7 +6,7 @@ substitutions:
   _REPO: jobs-lab
   _IMAGE: prime-lab
 
-opstions:
+options:
   logging: CLOUD_LOGGING_ONLY
 steps:
   - name: 'gcr.io/cloud-builders/docker'
